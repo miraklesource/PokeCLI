@@ -38,13 +38,13 @@ export function initState(cacheInterval: number): State {
         map: {
             name: "map",
             description:
-                "show the next 20 locations from the Pokemon world (each call scrolls foward in the list)",
+                "Show the next 20 locations from the Pokemon world (each call scrolls foward in the list)",
             callback: commandMap,
         },
         mapb: {
             name: "mapb",
             description:
-                "show the previous 20 locations from the Pokemon world (each call goes scrolls backward in the list)",
+                "Show the previous 20 locations from the Pokemon world (each call goes scrolls backward in the list)",
             callback: commandMapBack,
         },
         explore: {
