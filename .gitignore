@@ -1,3 +1,7 @@
+# Project exclusions
+dist/
+repl.log
+
 # Logs
 logs
 *.log
